@@ -1,3 +1,3 @@
 Cr1m3
 
-Educational Open soure trojan skeleton by JennyLab
+Educational Open source trojan skeleton by JennyLab
