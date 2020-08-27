@@ -1,0 +1,206 @@
+body {
+        margin: 0% 0% 0% 0%;
+        background-color:#202020;
+        color: #FFFFFF;
+        font-style: "Arial";
+        height: 100%;
+        width: 100%;
+}
+
+
+/***************************************
+		HEADER
+****************************************/
+
+header {
+        text-align: center;
+        color: red;
+        height: 10%;
+}
+
+header h1 {
+        font-size: 38px;
+        font-bold: bold;
+        font-family: Garamond, serif;
+        line-height: 1em;
+        color: #f00c0c;
+        font-weight:bold;
+        font-size: 36px;
+        text-shadow:0px 0px 0 rgb(206,-22,-22),1px 1px 0 rgb(196,-32,-32),2px 2px 0 rgb(186,-42,-42),3px 3px 0 rgb(176,-52,-52),4px 4px 0 rgb(166,-62,-62),5px 5px 0 rgb(156,-72,-72),6px 6px 0 rgb(147,-81,-81),7px 7px 0 rgb(137,-91,-91),8px 8px 0 rgb(127,-101,-101),9px 9px 0 rgb(117,-111,-111),10px 10px 0 rgb(107,-121,-121),11px 11px 0 rgb(97,-131,-131),12px 12px 0 rgb(87,-141,-141),13px 13px 0 rgb(77,-151,-151), 14px 14px 0 rgb(67,-161,-161),15px 15px 14px rgba(0,0,0,0),15px 15px 1px rgba(0,0,0,0.5),0px 0px 14px rgba(0,0,0,.2);
+
+}
+
+/********************************************
+		NAVIGATION MENU
+*********************************************/
+
+nav {
+        background-color: #1a1a1a;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+	box-shadow: 5px 5px 20px red;
+}
+
+
+nav ul li {
+	display:inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+nav ul li:hover {
+        background-color:#FFFFFF;
+        color: #000000;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: #808080;
+}
+
+nav ul li a:link {
+        text-decoration: none;
+        color: #808080;
+}
+
+nav ul li a:visited {
+        text-decoration: none;
+        color: #808080;
+}
+
+nav ul li a:hover {
+        text-decoration: none;
+        color: red;
+}
+
+
+
+
+/*******************************************
+		MAIN SECTION 
+*******************************************/
+
+section {
+	height:auto;
+	width:40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-bottom:2%;
+	border-right: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	box-shadow: 5px 5px 20px red;
+}
+
+
+article {
+	font-size:15px;
+	font-family:"arial";
+	word-break:break-all;
+	line-break:strict;
+	text-align:justify;
+	padding-top:5px;
+	padding-bottom:15px;
+}
+
+	/*******************
+		TABLES
+	********************/
+article table {
+	width: 90%;
+	margin:0px;
+	padding:0px;
+	margin-left:5%;
+	margin-right:5%;
+	border: 1px solid #FFFFFF;
+/*	box-shadow: 10px 10px 30px red;
+*/	border-collapse: collapse;
+	border-spacing: 0;	
+}
+
+article table th {
+	font-weight:bold;
+	font-color:red;
+	background-color:black;
+	width: auto;
+}
+
+article table td {
+	border-width: 0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	color:white;
+	text-align: center;	
+	
+}
+
+
+/****************************
+	LOGIN
+*****************************/
+article form {
+	margin-top:10%;
+	margin-left:27%;
+	padding-left:3%;
+	margin-right:26%;
+	margin-bottom:10%;
+	background:#161616;
+	padding-bottom:5%;
+	border:1px solid #FFFFFF;
+}
+
+article form img {
+	display:block;
+	margin-left:20%;
+}
+
+article form input {
+	display:block;
+}
+
+article form input[type=submit] {
+	background-color:black;
+	color:#FFFFFF;
+	border: 0px;
+	padding-bottom:2px;
+	padding-top:2px;
+	width:130px;
+	margin-left:20%;
+	margin-top:5%;
+}
+
+
+article form input[type=submit]:hover {
+	background-color:white;
+	color:black;
+	color:darkred;
+}
+
+article form input[type=text],
+article form input[type=password] {
+	background:black;
+	color:#FFFFFF;
+	border:0px;
+	text-align:center;
+}
+
+
+/****************************************
+		FOOTER
+****************************************/
+footer {
+        width: 100%;
+        height: 16px;
+        background: #000000;
+        clear: both;
+        position: relative;
+        z-index: 10;
+        /*height: 3em;*/
+        margin-top: -10px;
+        text-align:center;
+        font-size: 10px;
+        font-bold: bold;
+
+}

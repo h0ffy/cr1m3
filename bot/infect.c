@@ -1,0 +1,1 @@
+//metodo de infeccion

@@ -1,0 +1,374 @@
+/*
+	@Free Domain by h0ffy // JennyLab to the w0rld
+	The web design is Free Domain
+
+             _        _            _             _           _        _          _             _                   _        
+            /\ \     /\ \         /\ \     _    /\ \     _  /\ \     /\_\       _\ \          / /\                / /\      
+            \ \ \   /  \ \       /  \ \   /\_\ /  \ \   /\_\\ \ \   / / /      /\__ \        / /  \              / /  \     
+            /\ \_\ / /\ \ \     / /\ \ \_/ / // /\ \ \_/ / / \ \ \_/ / /      / /_ \_\      / / /\ \            / / /\ \    
+           / /\/_// / /\ \_\   / / /\ \___/ // / /\ \___/ /   \ \___/ /      / / /\/_/     / / /\ \ \          / / /\ \ \   
+  _       / / /  / /_/_ \/_/  / / /  \/____// / /  \/____/     \ \ \_/      / / /         / / /  \ \ \        / / /\ \_\ \  
+ /\ \    / / /  / /____/\    / / /    / / // / /    / / /       \ \ \      / / /         / / /___/ /\ \      / / /\ \ \___\ 
+ \ \_\  / / /  / /\____\/   / / /    / / // / /    / / /         \ \ \    / / / ____    / / /_____/ /\ \    / / /  \ \ \__/ 
+ / / /_/ / /  / / /______  / / /    / / // / /    / / /           \ \ \  / /_/_/ ___/\ / /_________/\ \ \  / / /____\_\ \   
+/ / /__\/ /  / / /_______\/ / /    / / // / /    / / /             \ \_\/_______/\__\// / /_       __\ \_\/ / /__________\  
+\/_______/   \/__________/\/_/     \/_/ \/_/     \/_/               \/_/\_______\/    \_\___\     /____/_/\/_____________/  
+                                                                                                                          The House of GrayHats 
+
+
+*/
+
+
+body {
+        margin: 0% 0% 0% 0%;
+        background-color:#202020;
+        color: #FFFFFF;
+        font-style: "Arial";
+        height: 100%;
+        width: 100%;
+}
+
+
+/***************************************
+		HEADER
+****************************************/
+
+header {
+        margin: 0% 0% 0% 0%;
+	text-align: center;
+        color: red;
+        height: 10%;
+}
+
+header h1 {
+	font: 54px "Garamond";
+        font-bold: bold;
+        line-height: 0.5em;
+        color: #f00c0c;
+        font-weight:bold;
+        font-size: 48px;
+/*
+        text-shadow:0px 0px 0 rgb(206,-22,-22),1px 1px 0 rgb(196,-32,-32),2px 2px 0 rgb(186,-42,-42),3px 3px 0 rgb(176,-52,-52),4px 4px 0 rgb(166,-62,-62),5px 5px 0 rgb(156,-72,-72),6px 6px 0 rgb(147,-81,-81),7px 7px 0 rgb(137,-91,-91),8px 8px 0 rgb(127,-101,-101),9px 9px 0 rgb(117,-111,-111),10px 10px 0 rgb(107,-121,-121),11px 11px 0 rgb(97,-131,-131),12px 12px 0 rgb(87,-141,-141),13px 13px 0 rgb(77,-151,-151), 14px 14px 0 rgb(67,-161,-161),15px 15px 14px rgba(0,0,0,0),15px 15px 1px rgba(0,0,0,0.5),0px 0px 14px rgba(0,0,0,.2);
+*/
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+}
+
+/********************************************
+		NAVIGATION MENU
+*********************************************/
+
+nav {
+        background-color: #1a1a1a;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+	box-shadow: 5px 5px 20px red;
+}
+
+
+nav ul li {
+	display:inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+nav ul li:hover {
+        background-color:#DEADC0;
+        color: #000000;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: #808080;
+}
+
+nav ul li a:link {
+        text-decoration: none;
+        color: #808080;
+}
+
+nav ul li a:visited {
+        text-decoration: none;
+        color: #808080;
+}
+
+nav ul li a:hover {
+        text-decoration: none;
+        color: red;
+}
+
+
+
+
+/*******************************************
+		MAIN SECTION 
+*******************************************/
+
+section {
+	height:auto;
+	min-height:80%;
+	width:40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-bottom:2%;
+	border-right: 1px solid #1e1e1e; /* #c0c0c0;*/
+	border-left: 1px solid #1e1e1e; /*#c0c0c0*/;
+	border-bottom: 1px solid #1e1e1e;
+	box-shadow: 5px 5px 20px red;
+}
+
+
+article {
+	font-size:15px;
+	font-family:"arial";
+	word-break:break-all;
+	line-break:strict;
+	text-align:justify;
+	padding-top:25px;
+	padding-bottom:15px;
+}
+
+	/*******************
+		TABLES
+	********************/
+article table {
+	width: 90%;
+	margin:0px;
+	padding:0px;
+	margin-left:5%;
+	margin-right:5%;
+	border: 1px solid #FFFFFF;
+/*	box-shadow: 10px 10px 30px red;
+*/	border-collapse: collapse;
+	border-spacing: 0;	
+}
+
+article table th {
+	font-weight:bold;
+	font-color:red;
+	background-color:black;
+	width: auto;
+}
+
+article table td {
+	border-width: 0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	color:white;
+	text-align: center;	
+	
+}
+
+article table td a:link,
+article table td a:visited {
+	text-decoration:none;
+	color:white;
+}
+
+article table td a:hover {
+	color:red;	
+}
+
+
+
+.text_ok {
+	color:green;
+}
+
+.text_no {
+	color:red;
+}
+
+.text_partial {
+	color:#FF5F00;
+}
+
+
+/*********************************
+	BOTS LIST
+*********************************/
+.list_class {
+	font-size:9px;
+	text-align: justify;
+}
+
+.list_section {
+        height:auto;
+        min-height:80%;
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        padding-bottom:2%;
+        border-right: 1px solid #1e1e1e;
+        border-left: 1px solid #1e1e1e; 
+        border-bottom: 1px solid #1e1e1e;
+        box-shadow: 5px 5px 20px red;
+
+}
+
+/****************************
+	LOGIN
+*****************************/
+article form {
+	margin-top:10%;
+	margin-left:27%;
+	padding-left:3%;
+	margin-right:26%;
+	margin-bottom:10%;
+	background:#161616;
+	padding-bottom:5%;
+	border:1px solid #FFFFFF;
+}
+
+article form img {
+	display:block;
+	margin-left:20%;
+}
+
+article form input {
+	display:block;
+}
+
+article form input[type=submit] {
+	background-color:black;
+	color:#FFFFFF;
+	border: 0px;
+	padding-bottom:2px;
+	padding-top:2px;
+	width:130px;
+	margin-left:20%;
+	margin-top:5%;
+}
+
+.browse_ip {
+	font-weight: bold;
+	color: red;
+	margin-left:15%;
+	margin-top:15%;
+}
+
+/*********************
+	SHELL
+**********************/
+
+article form input[type=button] {
+	padding-top:2px;
+	margin-top:1px;
+	background-color:black;
+	color:#FFFFFF;
+	border:0px;
+	width:120px;
+	display:inline-block;
+}
+
+
+article form input[type=submit]:hover,
+article form input[type=button]:hover {
+	background-color:#deadc0;
+	color:red;
+}
+
+article form input[type=text],
+article form input[type=password] {
+	background:black;
+	color:#FFFFFF;
+	border:0px;
+	text-align:center;
+}
+
+article form select {
+	background-color:black;
+	color:white;
+	min-width:180px;
+	width: 95%;
+	display:block;
+	border:0px;
+}
+
+
+article form select option {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+article form h2 {
+	text-align:center;
+	font-size:20px;
+	font-family:"Arial";
+		
+}
+
+article form textarea {
+	min-height:300px;
+	display:block;
+	width:95%;
+	overflow:scroll;
+	background-color:black;
+	color:red;
+}
+
+
+.rev_shell {
+        height:auto;
+        width:90%;
+        margin-left:3.5%;
+        margin-right:6.5%;
+
+}
+
+.execute {
+	width:95%;
+}
+
+
+
+/****************************************
+		PANIC
+*****************************************/
+
+.panic_button img {
+	margin-left:20%;
+}
+
+.panic_button input[type=button] {
+	display:block;
+	height:100px;
+	width:100px;
+	border-radius: 50px; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	background-color:red;
+	color:white;
+	border: 1px solid black;
+	margin-left:40%;
+	margin-top:5%;	
+}
+
+
+.panic_button input[type=button]:hover {
+	background-color:white;
+	color:red;
+
+}
+
+
+/****************************************
+		FOOTER
+****************************************/
+footer {
+        width: 100%;
+        height: 16px;
+        background: #000000;
+        clear: both;
+        position: relative;
+        z-index: 10;
+        /*height: 3em;*/
+        margin-top: 15px;
+        text-align:center;
+        font-size: 10px;
+        font-bold: bold;
+
+}

