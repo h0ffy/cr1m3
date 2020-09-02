@@ -1,0 +1,21 @@
+﻿main.obj : warning LNK4229: se encontró la directiva '/MTd' no válida; se omitió
+main.obj : warning LNK4202: creando compilación completa debido a la directiva '/INCREMENTAL:NO'
+base64.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/INCREMENTAL:NO'
+main.obj : warning LNK4229: se encontró la directiva '/MTd' no válida; se omitió
+     Creando biblioteca C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.lib y objeto C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.exp
+MSVCRTD.lib(init.obj) : error LNK2019: símbolo externo __CrtDbgReport sin resolver al que se hace referencia en la función __CRT_RTC_INIT
+MSVCRTD.lib(init.obj) : error LNK2019: símbolo externo __CrtDbgReportW sin resolver al que se hace referencia en la función __CRT_RTC_INITW
+MSVCRTD.lib(error.obj) : error LNK2019: símbolo externo _strcpy_s sin resolver al que se hace referencia en la función "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPAXPBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: símbolo externo _strcat_s sin resolver al que se hace referencia en la función "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPAXPBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: símbolo externo ___stdio_common_vsprintf_s sin resolver al que se hace referencia en la función __vsprintf_s_l
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo __wmakepath_s sin resolver al que se hace referencia en la función "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned int)" (?GetPdbDllPathFromFilePath@@YAHPB_WPA_WI@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo __wsplitpath_s sin resolver al que se hace referencia en la función "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned int)" (?GetPdbDllPathFromFilePath@@YAHPB_WPA_WI@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo _wcscpy_s sin resolver al que se hace referencia en la función "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned int)" (?GetPdbDllPathFromFilePath@@YAHPB_WPA_WI@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo ___vcrt_GetModuleFileNameW sin resolver al que se hace referencia en la función "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo ___vcrt_GetModuleHandleW sin resolver al que se hace referencia en la función "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo ___vcrt_LoadLibraryExW sin resolver al que se hace referencia en la función "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(chandler4_noexcept.obj) : error LNK2019: símbolo externo _terminate sin resolver al que se hace referencia en la función __except_handler4_noexcept
+MSVCRTD.lib(chandler4_noexcept.obj) : error LNK2019: símbolo externo ___current_exception sin resolver al que se hace referencia en la función __except_handler4_noexcept
+MSVCRTD.lib(chandler4_noexcept.obj) : error LNK2019: símbolo externo ___current_exception_context sin resolver al que se hace referencia en la función __except_handler4_noexcept
+MSVCRTD.lib(chandler4gs.obj) : error LNK2019: símbolo externo __except_handler4_common sin resolver al que se hace referencia en la función __except_handler4
+C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.exe : fatal error LNK1120: 15 externos sin resolver
