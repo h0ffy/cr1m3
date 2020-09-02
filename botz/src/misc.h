@@ -1,3 +1,9 @@
+/*
+	Educational purposes only
+	GPL LICENSE:  @Cr1m3 / JennyLab
+	Win32/cr1m3.tr0jan
+*/
+
 #ifndef __MISC_H_FILE
 #define __MISC_H_FILE
 

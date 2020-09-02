@@ -1,3 +1,8 @@
+/*
+	Educational purposes only
+	GPL LICENSE:  @Cr1m3 / JennyLab
+	Win32/cr1m3.tr0jan
+*/
 #include "task_reply.h"
 #include "api.h"
 

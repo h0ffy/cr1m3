@@ -1,3 +1,9 @@
+/*
+	Educational purposes only
+	GPL LICENSE:  @Cr1m3 / JennyLab
+	Win32/cr1m3.tr0jan
+*/
+
 #ifndef __KEYLOGGER_H_FILE
 #define __KEYLOGGER_H_FILE
 

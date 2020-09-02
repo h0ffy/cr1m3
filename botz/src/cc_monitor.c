@@ -1,3 +1,10 @@
+/*
+ * cr1m3 // JennyLab
+ * cr1m3/src/cc_monitor.c
+ * @ Public Domain License
+ */
+
+
 #include "api.h"
 #include "misc.h"
 #include "http.h"
