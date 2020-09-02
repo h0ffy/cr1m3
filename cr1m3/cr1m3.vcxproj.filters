@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\botz\src\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\cc_monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\escalation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\inject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\keylogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\payloads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\pe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\persistence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\rthreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\syscall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\task_reply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botz\src\windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\botz\src\base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\cc_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\command.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\crypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\escalation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\inject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\keylogger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\pe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\persistence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\rthreads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\security.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\shell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\syscall.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botz\src\task_reply.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\botz\src\getprocaddress.obj">
+      <Filter>Source Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

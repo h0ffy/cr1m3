@@ -1,0 +1,38 @@
+﻿Build started 03/09/2020 0:46:49.
+     1>Project "C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\cr1m3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\botz\src\main.c
+         main.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.lib" /MACHINE:X86 Debug\base64.obj
+         Debug\cc_monitor.obj
+         Debug\command.obj
+         Debug\crypto.obj
+         Debug\escalation.obj
+         Debug\http.obj
+         Debug\info.obj
+         Debug\inject.obj
+         Debug\keylogger.obj
+         Debug\main.obj
+         Debug\md5.obj
+         Debug\misc.obj
+         Debug\pe.obj
+         Debug\persistence.obj
+         Debug\process.obj
+         Debug\rthreads.obj
+         Debug\security.obj
+         Debug\shell.obj
+         Debug\syscall.obj
+         Debug\task_reply.obj
+         ..\botz\src\getprocaddress.obj
+     1>main.obj : warning LNK4229: invalid directive '/MTd' encountered; ignored
+     1>main.obj : warning LNK4202: spawning full build due to '/INCREMENTAL:NO' directive
+     1>base64.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>main.obj : warning LNK4229: invalid directive '/MTd' encountered; ignored
+            Creating library C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.lib and object C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.exp
+         cr1m3.vcxproj -> C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\Debug\cr1m3.exe
+     1>Done Building Project "C:\Users\homer\source\repos\h0ffy\cr1m3\cr1m3\cr1m3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82
